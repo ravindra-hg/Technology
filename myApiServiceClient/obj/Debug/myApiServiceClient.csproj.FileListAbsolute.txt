@@ -1,0 +1,9 @@
+D:\github\Technology\myApiServiceClient\bin\Debug\myApiServiceClient.exe.config
+D:\github\Technology\myApiServiceClient\bin\Debug\myApiServiceClient.exe
+D:\github\Technology\myApiServiceClient\bin\Debug\myApiServiceClient.pdb
+D:\github\Technology\myApiServiceClient\bin\Debug\System.Net.Http.Formatting.dll
+D:\github\Technology\myApiServiceClient\bin\Debug\Newtonsoft.Json.dll
+D:\github\Technology\myApiServiceClient\bin\Debug\System.Net.Http.Formatting.xml
+D:\github\Technology\myApiServiceClient\obj\Debug\myApiServiceClient.csprojResolveAssemblyReference.cache
+D:\github\Technology\myApiServiceClient\obj\Debug\myApiServiceClient.exe
+D:\github\Technology\myApiServiceClient\obj\Debug\myApiServiceClient.pdb
