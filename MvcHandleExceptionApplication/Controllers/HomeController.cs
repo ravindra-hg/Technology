@@ -7,7 +7,7 @@ using MvcHandleExceptionApplication.Models;
 
 namespace MvcHandleExceptionApplication.Controllers
 {
-    [HandleError()]
+    [HandleError(ExceptionType=typeof(InvalidOperationException))]
     public class HomeController : Controller
     {
         //
@@ -25,7 +25,7 @@ namespace MvcHandleExceptionApplication.Controllers
         public ActionResult StockmarketDashBoard(string type)
         {
             if (string.IsNullOrEmpty(type))
-                throw new Exception("must have type");
+                throw new InvalidOperationException("must have type");
 
             return View(new List<SecurityData>() { new SecurityData() { IndexName = "NSE", Name = "TSS", CurrentPrice = 120.00m } });
         }
