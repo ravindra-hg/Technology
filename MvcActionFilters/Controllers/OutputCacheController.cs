@@ -14,7 +14,7 @@ namespace MvcActionFilters.Controllers
         /// This is to display datetime from cache
         /// </summary>
         /// <returns></returns>
-        [OutputCache(Duration=10)]
+        [OutputCache(CacheProfile="CacheMasterData")]
         public string Index()
         {
             string dateTime = DateTime.Now.ToString("T");
